@@ -11,7 +11,7 @@ public class Task_Home2 {
         int sum = 1;
         for (int i = 0; i<=factorial;i++){
             int fac = raise * i;
-            int sum = sum * fac;
+            sum = sum * fac;
             System.out.println(sum);
         }
     }
