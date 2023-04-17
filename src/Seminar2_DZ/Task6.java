@@ -9,7 +9,13 @@
 package Seminar2_DZ;
 
 public class Task6 {
+    public static void main(String[] args) throws Exception {
+        String [] arrayData =  lib.ReadLineFromFile("dataForTask3.txt");
+        for(int i = 0; i < arrayData.length; i++) {
+            System.out.println(PrintLine(arrayData[i]));
+        }
 
+    }
     public static StringBuilder PrintLine(String line) {
         String line1 = line.replace("{", "");
         String line2 = line1.replace("}", "");
